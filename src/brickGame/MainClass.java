@@ -14,6 +14,8 @@ public class MainClass {
         f.setVisible(true);
         f.setResizable(false);
 
+        gamePlay GamePlay = new gamePlay();
+        f.add(GamePlay);
 
 
     }
